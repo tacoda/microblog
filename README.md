@@ -9,6 +9,12 @@ A proof of concept to learn how to use Nix.
 ## Using Nix
 
 ```sh
+# Build
 nix-build
-nix-shell default.nix
+
+# Run the flask app
+nix-shell --run "python myapp.py"
+
+# Test the output of the sever
+nix-shell --run "bash verify.sh"
 ```
