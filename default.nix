@@ -1,11 +1,11 @@
 { pkgs ? import <nixpkgs> {} }:
 
-pkgs.python3Packages.buildPythonApplication {
-  pname = "myapp";
+pkgs.python310Packages.buildPythonApplication {
+  pname = "microblog";
   src = ./.;
   version = "0.1";
   propagatedBuildInputs = [
-    pkgs.python3Packages.flask
-    pkgs.python3Packages.python-dotenv
+    pkgs.python310Packages.flask
+    pkgs.python310Packages.python-dotenv
   ];
 }

@@ -13,7 +13,7 @@ A proof of concept to learn how to use Nix.
 nix-build
 
 # Run the flask app
-nix-shell --run "python myapp.py"
+nix-shell --run "python microblog.py"
 
 # Test the output of the sever
 nix-shell --run "bash verify.sh"
