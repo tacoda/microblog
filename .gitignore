@@ -1,2 +1,3 @@
 result
-myapp.egg*
+microblog.egg*
+app/__pycache__

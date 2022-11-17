@@ -1,10 +1,10 @@
 from setuptools import setup
 
 setup(
-    name='myapp',
+    name='microblog',
     version='0.1',
-    py_modules=['myapp'],
+    py_modules=['microblog'],
     entry_points={
-        'console_scripts': ['myapp = myapp:run']
+        'console_scripts': ['microblog = microblog:run']
     },
 )
