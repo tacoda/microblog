@@ -1,3 +1,6 @@
 result
 microblog.egg*
 app/__pycache__
+__pycache__
+.devenv*
+devenv.local.nix

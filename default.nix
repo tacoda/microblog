@@ -7,5 +7,8 @@ pkgs.python310Packages.buildPythonApplication {
   propagatedBuildInputs = [
     pkgs.python310Packages.flask
     pkgs.python310Packages.python-dotenv
+    pkgs.python310Packages.flask-wtf
+    pkgs.python310Packages.flask-sqlalchemy
+    pkgs.python310Packages.flask_migrate
   ];
 }
