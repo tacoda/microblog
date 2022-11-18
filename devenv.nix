@@ -8,16 +8,7 @@
 
   # https://devenv.sh/packages/
   packages = [
-    pkgs.bat
     pkgs.curl
-    pkgs.fd
-    pkgs.fzf
-    pkgs.exa
-    pkgs.git
-    pkgs.jq
-    pkgs.neovim
-    pkgs.ripgrep
-    pkgs.watchexec
     pkgs.python310Packages.flask
     pkgs.python310Packages.python-dotenv
     pkgs.python310Packages.flask-wtf
@@ -25,9 +16,9 @@
     pkgs.python310Packages.flask_migrate
   ];
 
-  enterShell = ''
-    flask --help
-  '';
+  # enterShell = ''
+  #  flask --help
+  # '';
 
   # https://devenv.sh/languages/
   languages.nix.enable = true;
