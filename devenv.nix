@@ -14,6 +14,8 @@
     pkgs.python310Packages.flask-wtf
     pkgs.python310Packages.flask-sqlalchemy
     pkgs.python310Packages.flask_migrate
+    pkgs.python310Packages.flask-login
+    pkgs.python310Packages.email-validator
   ];
 
   # enterShell = ''
